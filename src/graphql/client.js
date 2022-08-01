@@ -17,7 +17,7 @@ const client = new ApolloClient({
       reconnect: true,
       connectionParams: {
         headers: {
-          "x-hasura-admin-secret": REACT_APP_HASURA_SECRET,
+          "x-hasura-admin-secret": "sy7NUWkOrB4dexWjKv7jwWE07rT9U7htSbz1siJumFvqcRhCO93xGWgI5ICWpH5E",
         },
       },
     },
